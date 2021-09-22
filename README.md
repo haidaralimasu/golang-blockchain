@@ -1,2 +1,3 @@
 # golang_blockchain
-golang blockchain implementation
+
+simple golang blockchain implementation
