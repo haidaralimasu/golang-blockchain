@@ -34,7 +34,7 @@ func DBexists() bool {
 }
 
 func ContinueBlockChain(address string) *BlockChain {
-	if DBexists() == false {
+	if !DBexists() {
 		fmt.Println("No existing blockchain found, create one!")
 		runtime.Goexit()
 	}
