@@ -1,6 +1,7 @@
 package main
 
 import (
+<<<<<<< HEAD
 	"bytes"
 	"crypto/sha256"
 	"fmt"
@@ -54,4 +55,15 @@ func main() {
 		fmt.Printf("Data in Block: %s\n", block.Data)
 		fmt.Printf("Hash: %x\n", block.Hash)
 	}
+=======
+	"os"
+
+	"github.com/Haidar1528/golang_blockchain/cli"
+)
+
+func main() {
+	defer os.Exit(0)
+	cmd := cli.CommandLine{}
+	cmd.Run()
+>>>>>>> c19251cdd5e5e8a1519915a0906832947cf40c88
 }

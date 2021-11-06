@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Golang Blockchain
 
 ### In this tutorial, we look at the go module system and build the basic framework for a blockchain. 
@@ -9,3 +10,8 @@
 ### Check out our blog at [tensor-programming.com](http://tensor-programming.com/).
 
 ### Our [Twitter](https://twitter.com/TensorProgram), our [facebook](https://www.facebook.com/Tensor-Programming-1197847143611799/) and our [Steemit](https://steemit.com/@tensor).
+=======
+# golang_blockchain
+
+simple golang blockchain implementation
+>>>>>>> c19251cdd5e5e8a1519915a0906832947cf40c88
